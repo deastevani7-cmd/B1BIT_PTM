@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>B1Bit_PTM - Petani Modern</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('gambar-petani.jpg') no-repeat center center/cover;
+      height: 100vh;
+      color: #fff;
+    }
+
+    /* Navigasi */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    nav .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #136c38;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav ul li a:hover {
+      color: #136c38;
+    }
+
+    /* Konten Tengah */
+    .hero {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(255,255,255,0.6);
+      padding: 40px;
+      border-radius: 12px;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 40px;
+      color: #136c38;
+    }
+
+    .hero h2 {
+      margin: 10px 0 20px;
+      font-size: 22px;
+      font-weight: normal;
+      color: #136c38;
+    }
+
+    .hero .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      border-radius: 6px;
+      background: #7DDB8D;
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .hero .btn:hover {
+      background: #5cbf6d;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigasi -->
+  <nav>
+    <div class="logo">🌱 B1Bit_PTM</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="register.html">Register</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero / Konten Utama -->
+  <div class="hero">
+    <h1>B1Bit_PTM</h1>
+    <h2>PETANI MODERN</h2>
+    <a href="login.html" class="btn">Login</a>
+    <a href="register.html" class="btn">Register</a>
+  </div>
+</body>
+</html>
